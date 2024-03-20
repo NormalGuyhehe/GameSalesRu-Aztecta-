@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гостевой режим</title>
+    <link rel = "stylesheet" href="GuestViewSiteStyle.css"/>
+    <script src="Perehod_po_Kartochke_tovara.js" defer></script>
+</head>
+<body>
+    <div class = "BackgroundFones">
+        <div class = "WidgetsContainerAndMore">
+            <div class = "ShapkaSaita">
+                <div class = "TextPloskost">
+                    <a class="accCreate" href="CreateAccount.html">
+                        <div>
+                            sign up
+                        </div>
+                    </a>
+                    <a class="CommunityStyle" href="ForCommunityPage.html "><div class = "SomeEasterEggs">Community</div></a>
+                    <input type="text" class="Find"/>
+                </div>
+            </div>
+        <div class="GridShop">
+            <a href="product.html?index=0" onclick="IfClicked(event)" data-index="0" id="GodOfWar" style="text-decoration: none;">
+                <div class="Card">
+                    <img class="ImgGodOfWar4" src="https://upload.wikimedia.org/wikipedia/ru/6/6e/God_of_War-_Ragnar%C3%B6k.jpg" alt="God Of War"/>
+                    <div class="CardTitle">God Of War 4</div>
+                    <div class="CardDescription">Studios: Santa Monika</div>
+                    <div class="CardPrice">$10</div>
+                </div>
+            </a>
+            <a href="product.html?index=1" onclick="IfClicked(event)" data-index="1" id="DtrBcHum" style="text-decoration: none;">
+                <div class="Card">
+                    <img class="ImgDetroitBecomeHuman" src="https://lastfm.freetls.fastly.net/i/u/ar0/01cf78d4049860ac07eb15679ebee104.jpg" alt="Detroit Become_Human"/>
+                    <div class="CardTitle">Detroit Become Human</div>
+                    <div class="CardDescription">Quantic Dream</div>
+                    <div class="CardPrice">$29.99</div>
+                </div>
+            </a>
+            <a href="product.html?index=3" onclick="IfClicked(event)" data-index="2" id="MetroExodus" style="text-decoration: none;">
+                <div class="Card">
+                    <img class="MetroExodusImg" src="https://upload.wikimedia.org/wikipedia/ru/c/c5/Metro_Exodus.png" alt="Metro Exodus"/>
+                    <div class="CardTitle">Metro Exodus</div>
+                    <div class="CardDescription">4A Games</div>
+                    <div class="CardPrice">15$</div>
+                </div>
+            </a>
+            <a href="product.html?index=3" onclick="IfClicked(event)" data-index="3" id="DyingLight2" style="text-decoration: none;">
+                <div class="Card">        
+                    <img class="DyingLight_2_stay_human" src="https://upload.wikimedia.org/wikipedia/ru/1/10/%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_Dying_Light_2.jpg" alt="DyingLight_2_stay_human"/>
+                    <div class="CardTitle">DyingLight 2 - Stay Human</div>
+                    <div class="CardDescription">Techland</div>
+                    <div class="CardPrice">$20</div>
+                </div>
+            </a>
+            <a href="product.html?index=4" onclick="IfClicked(event)" data-index="4" id="NFS" style="text-decoration: none;">
+                <div class="Card">
+                    <img class="Need_for_Speed" src="https://upload.wikimedia.org/wikipedia/ru/0/08/Need_for_Speed_Coverart.jpg" alt="Need_for_Speed"/>
+                    <div class="CardTitle">Need for Speed</div>
+                    <div class="CardDescription">EA (Electronic Arts)</div>
+                    <div class="CardPrice">$13.99</div>
+                </div>
+            </a>
+            <a href="product.html?index=5" onclick="IfClicked(event)" data-index="5" id="RDR2" style="text-decoration: none;">
+                <div class="Card">
+                    <img class="ImgRedDeadRedemption" src="https://cdn-products.eneba.com/resized-products/6M1qP76B-j6vdX0T4bFCHgJeX99MaKBpXFxbpif1MqY_350x200_1x-0.jpeg" alt="RDR2"/>
+                    <div class="CardTitle">Red Dead Redemption 2</div>
+                    <div class="CardDescription">Rokstar Gaming</div>
+                    <div class="CardPrice">$30</div>
+                </div>
+            </a>
+            <a href="product.html?index=6" onclick="IfClicked(event)" data-index="6" id="Zelda_bring_of_the_Wild" style="text-decoration: none;">
+                <div class="Card">
+                    <img class="Zelda_of_the_Wild" src="https://upload.wikimedia.org/wikipedia/ru/3/34/TLoZ_BotW_boxart.png" alt="Zelda_BW"/>
+                    <div class="CardTitle">Zelda - bring of the Wild</div>
+                    <div class="CardDescription">Nintendo, Capcom, ...</div>
+                    <div class="CardPrice">$35</div>
+                </div>
+            </a>
+            <a href="product.html?index=7" onclick="IfClicked(event)" data-index="7" id="Forza_Horizon4_ultimate_Ed" style="text-decoration: none;">
+                <div class="Card">
+                    <img class="Forza_Horizon4_ultimate" src="ForzaHorizon4_theUltimate.png" alt="FH4_ultimate"/>
+                    <div class="CardTitle">Forza Horizon 4 - Ultimate Edition</div>
+                    <div class="CardDescription">Microsoft</div>
+                    <div class="CardPrice">$20</div>
+                </div>
+            </a>
+            <a href="product.html?index=8" onclick="IfClicked(event)" data-index="8" id="Terraa_game" style="text-decoration: none;">
+                <div class="Card">
+                    <img class="Terraria" src="Terraria.png" alt="Terka"/>
+                    <div class="CardTitle">Terraria</div>
+                    <div class="CardDescription">505 Games</div>
+                    <div class="CardPrice">$5</div>
+                </div>
+            </a>
+        </div>
+        <footer class="UrisdikInformation">
+            <div class="informationForCompany">
+                Сервис GameSales (Aztecta) является компанией по обороту игровой дистрибуции и интернет вещей, имеет все необходимые лицензии, и является официальным дистрибьютором.
+            </div>
+            <div class="kommunikate">
+                Связатся с нами : 
+                <div>
+                    <a class="ImgSocial" href="#">
+                        <img src="X_or_Twitter.png" alt="Twitter"> 
+                    </a>
+                    <a class="ImgSocial" href="#">
+                        <img src = "instagram_image.png" alt="Instagram">
+                    </a>
+                    <a class="ImgSocial" href="#">
+                        <img src="facebook_image.png" alt="facebook">
+                    </a>
+                    <a class="ImgSocial" href="#">
+                        <img src="VK_black_logo_image.png" alt="VK">
+                    </a>
+                </div>
+            </div> 
+            <a class="NE_TROGAT_INACHE_USE" href="#" style="text-decoration: none;">
+                <div class="EmailAddres">default_aadres@gmail.com</div>
+            </a>
+        </footer>
+    </div>
+</body>
+</html>

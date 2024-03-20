@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+body {
+    font-family: 'Koulen', sans-serif;
+    margin: 0;
+}
+
+@keyframes AppearanceOf_A_Gradient {
+    0%, 20%, 60%, 70%, 80%, 90%, 100% {
+        background: linear-gradient(113deg, rgba(12, 255, 12, 0.685), rgba(0, 195, 255));
+    }
+    30% {
+        background: linear-gradient(113deg, rgb(0, 255, 13), rgba(8, 187, 241, 0.897));
+    }
+    40% {
+        background: linear-gradient(113deg, rgba(13, 206, 13, 0.842), rgba(0, 195, 255));
+    }
+    50% {
+        background: linear-gradient(113deg, rgba(12, 255, 12, 0.685), rgba(17, 146, 231, 0.76));
+    }
+}
+
+.AnimationsLoginBackgr {
+    animation: AppearanceOf_A_Gradient 2s ease-in infinite;
+    background: linear-gradient(113deg, rgba(12, 255, 12, 0.685), rgba(0, 195, 255));
+    width: 100%;
+    height: 100vh; /* Изменено значение высоты */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+
+
+.LoginWindow {
+    position: relative;
+    width: 445px;
+    height: 545px;
+    border-radius: 20px;
+    border: 20px solid darkgoldenrod;
+    background-color: rgb(76, 0, 255);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.GameSalesRu {
+    font-family: 'Koulen' sans-serif;
+    font-size: medium;
+    padding-top: 0px;
+    color: aqua;
+    font-size: medium;
+    font-size: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Line0 ,.Line, .Line1, .Line2{
+    width: 100%;
+    color: cyan;
+    border-bottom: 1px solid ;
+}
+.Privetstvie {
+    color: rgb(255, 238, 0);
+    font-size: 20px;
+    font-family: 'Silkscreen', sans-serif;
+    font-style: normal;
+    position: relative;
+    z-index: 2;
+}
+.InpEmail{
+    color:silver;
+    font-size: medium;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.Line0{
+    height: 1px;
+}
+.Line1{
+    width: 155,95px;
+    height: 1px;
+    color: burlywood;
+    margin-top: 10px;
+}
+#EmailLoginInput{
+    margin-top: 10px;
+}
+.InpPass{
+    color:chocolate;
+    font-size: medium;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.Line2{
+    margin-top: 10px;
+    color:chocolate;
+}
+.InpPassRepeated2{
+    color:rgb(0, 255, 55);
+    font-size: medium;
+    font-size: 25px;
+    margin-top: 15px;
+}
+#LoginAccount{
+    margin-top: 30px;
+}
+/* Add the following styles to your existing CSS */
+
+#EmailLoginInput,
+#PasswordLoginInput,
+#PasswordLoginInputRepeated2 {
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #fff; /* Add a white border at the bottom */
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    color: #fff; /* Text color */
+    outline: none; /* Remove default input outline */
+}
+
+#EmailLoginInput::placeholder,
+#PasswordLoginInput::placeholder,
+#PasswordLoginInputRepeated2::placeholder {
+    color: #aaa; /* Placeholder text color */
+}
+
+#EmailLoginInput:focus,
+#PasswordLoginInput:focus,
+#PasswordLoginInputRepeated2:focus {
+    border-bottom: 2px solid aqua; /* Change the border color on focus */
+}
+
+/* Add hover effect */
+#EmailLoginInput:hover,
+#PasswordLoginInput:hover,
+#PasswordLoginInputRepeated2:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Lighten the background on hover */
+}
+
+/* Style the login button */
+#LoginAccount button {
+    background-color: aqua;
+    color: #000;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#LoginAccount button:hover {
+    background-color: #00c3ff; /* Darken the background on hover */
+}

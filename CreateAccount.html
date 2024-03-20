@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CreateAccountCSS.css" />
+    <script href="obrabotkadannyhregistr.js"></script>
+    <title>Создание аккаунта</title>
+  </head>
+  <body>
+    <div class="animated-background">
+      <div class="container">
+        <div class="TextForSite">GameSalesRu</div>
+        <div class="inner-container">
+          <div class="Reg">Registration</div>
+          <hr class="FirstLine" />
+          <br />
+          <div class="Email">Input Your Email</div>
+          <input type="text" id="inputemail" name="EmailName" />
+          <br />
+          <div class="InpPass">Input Your Password Please</div>
+          <input type="password" id="InputPasww" name="PasswordValue" />
+          <br />
+          <div class="InpPassRepeat">Input Your Password Repeat Please</div>
+          <input
+            type="password"
+            id="InputPaswwReapeat"
+            name="ReapeatPaswwValue"
+          />
+          <br />
+          <div id="CreateAccount">
+            <button type="button" onclick="ZaprocDannyhIOtpravkaVJSON()">
+              Create Account
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

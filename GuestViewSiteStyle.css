@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+body {
+    font-size: large;
+    margin: 0;
+    font-family: 'Koulen', sans-serif;
+}
+.accCreate{
+    margin-inline-start: 5%;
+    font-size: 40%;
+    background-color: rgb(29, 189, 218);
+    border-radius: 15%;
+    text-decoration: none;
+
+}
+.WidgetsContainerAndMore {
+    font-size: 40px;
+    z-index: 1;
+}
+
+.ShapkaSaita {
+    background: linear-gradient(113deg, rgba(255, 0, 0, 0.56) 0%, rgba(36, 0, 255, 0.69) 100%);
+    color: aliceblue;
+    inline-size: 100%;
+    block-size: 70px;
+    z-index: 2;
+}
+
+.TextPloskost {
+    background: none;
+    inline-size: auto;
+    block-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block-start: 20px;
+    z-index: 3;
+}
+.SiteName {
+    inline-size: 10%;
+    block-size: 10%;
+    margin-inline-start: 5%;
+    margin-inline-end: 20%;
+    z-index: 4;
+}
+.CommunityStyle{
+    text-decoration: none;
+}
+.SomeEasterEggs {
+    color: yellowgreen;
+    font-size: smaller;
+    font-family: 'Silkscreen', sans-serif;
+    z-index: 4;
+    font-size: 35%;
+    margin-inline-start: 10%;
+}
+
+.Find {
+    block-size: 30px;
+    inline-size: 200px;
+    font-size: 15px;
+    margin-inline-end: 20px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.Find:hover,
+.Find:focus {
+    border-color: #3498db;
+}
+
+.Grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-inline-size: 1200px;
+    margin: 0 auto;
+}
+
+.GridShop {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-inline-size: 1200px;
+    margin: 0 auto;
+}
+
+.Card:first-child {
+    grid-column: 1;
+}
+
+.Card:nth-child(2) {
+    grid-column: 2;
+}
+
+.Card:last-child {
+    grid-column: 3;
+}
+
+.Card {
+    min-inline-size: 300px;
+    min-block-size: 500px;
+    max-inline-size: 500px;
+    max-block-size: 700px;
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.CardTitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-block-end: 10px;
+}
+
+.CardDescription {
+    font-size: 14px;
+    color: #555;
+}
+
+.CardPrice {
+    font-size: 16px;
+    font-weight: bold;
+    color: #27ae60;
+}
+
+.ImgGodOfWar4,
+.ImgDetroitBecomeHuman, 
+.MetroExodusImg,
+.Zelda_of_the_Wild
+{
+    inline-size: 100%;
+    block-size: 485px;
+    object-fit: contain;
+}
+.ImgRedDeadRedemption{
+    inline-size: 90%;
+    block-size: auto;
+}
+.DyingLight_2_stay_human{
+    inline-size: 95%;
+    block-size: 95%;
+}
+.Need_for_Speed{
+    inline-size: 100%;
+    block-size: 100%;
+}
+.Zelda_of_the_Wild{
+    block-size: 50%;
+    inline-size: 100%;
+}
+.Forza_Horizon4_ultimate{
+    width: 89%;
+    height: 89%;
+    max-width: 89%;
+    max-height: 89%;
+}
+.Terraia{
+    width: 10%;
+    height: 10%;
+    max-width: 10%;
+    height: 10%;
+}
+.UrisdikInformation{
+    inline-size: 100%;
+    block-size: 270px;
+    text-size-adjust: 20px;
+    text-align: center;
+    background: linear-gradient(113deg, rgba(255, 0, 0, 0.56) 0%, rgba(36, 0, 255, 0.69) 100%);
+    z-index: 2;
+}
+.informationForCompany{
+    padding-block-start: 1%;
+    font-size : 30%;
+    word-spacing: 10%;
+}
+.kommunikate{
+    padding-block-start: 2%;
+    font-size: 30%;
+}
+.BackgroundFones{
+    min-block-size: calc(150vh - 100px);
+}
+.BackgroundFones img{
+    margin-top: 3%;
+}
+.BackgroundFones a{
+    size: 50%;
+}
+.ImgSocial{
+    padding: 1.5%;
+}
+.EmailAddres{
+    margin-top: 1%;
+    font-size: 45%;
+}
+.NE_TROGAT_INACHE_USE{
+    padding: none;
+}
